@@ -27,5 +27,8 @@
                 "url": "https://github.com/houmain/keymapper/releases/download/$version/keymapper-windows-x64-$version.zip"
             }
         }
-    }
+    },
+    "notes": [
+        "To use the Interception library (keymapper.exe -i) you must manually install the Interception driver with administrator privileges. https://github.com/oblitum/Interception/#driver-installation"
+    ]
 }

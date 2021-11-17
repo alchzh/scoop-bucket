@@ -1,0 +1,31 @@
+{
+    "version": "1.6.0",
+    "description": "A cross-platform context-aware key remapper.",
+    "homepage": "https://github.com/houmain/keymapper",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/houmain/keymapper/releases/download/1.6.0/keymapper-windows-x64-1.6.0.zip",
+                "https://github.com/oblitum/Interception/releases/download/v1.0.1/Interception.zip"
+            ],
+            "hash": [
+                "b8d6efedf75d0e84766261fa0d3a90197b952dc917d76531ea4077d4f07de9cf",
+                "ad038963d6413055765128b0b931f6e765147c9916dba79e65d872b261f9af10"
+            ]
+        }
+    },
+    "extract_dir": [
+        "",
+        "Interception/library/x64"
+    ],
+    "bin": "keymapper.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/houmain/keymapper/releases/download/$version/keymapper-windows-x64-$version.zip"
+            }
+        }
+    }
+}

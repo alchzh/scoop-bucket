@@ -1,16 +1,16 @@
 {
-    "version": "1.6.0",
+    "version": "1.8.1",
     "description": "A cross-platform context-aware key remapper.",
     "homepage": "https://github.com/houmain/keymapper",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/houmain/keymapper/releases/download/1.6.0/keymapper-windows-x64-1.6.0.zip",
+                "https://github.com/houmain/keymapper/releases/download/1.8.1/keymapper-windows-x64-1.8.1.zip",
                 "https://github.com/oblitum/Interception/releases/download/v1.0.1/Interception.zip"
             ],
             "hash": [
-                "b8d6efedf75d0e84766261fa0d3a90197b952dc917d76531ea4077d4f07de9cf",
+                "ce188634dbdcdbe4a0ca759d6c1cf5cfda77fb7fc8aa75b04f2720a563aa3e38",
                 "ad038963d6413055765128b0b931f6e765147c9916dba79e65d872b261f9af10"
             ]
         }
@@ -28,7 +28,5 @@
             }
         }
     },
-    "notes": [
-        "To use the Interception library (keymapper.exe -i) you must manually install the Interception driver with administrator privileges. https://github.com/oblitum/Interception/#driver-installation"
-    ]
+    "notes": "To use the Interception library (keymapper.exe -i) you must manually install the Interception driver with administrator privileges. https://github.com/oblitum/Interception/#driver-installation"
 }

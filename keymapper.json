@@ -14,7 +14,7 @@
         }
     },
     "extract_dir": [
-        ""
+        "keymapper-2.6.2-win64"
     ],
     "bin": "keymapper.exe",
     "checkver": "github",
@@ -23,6 +23,9 @@
             "64bit": {
                 "url": "https://github.com/houmain/keymapper/releases/download/$version/keymapper-$version-win64.zip"
             }
-        }
+        },
+        "extract_dir": [
+            "keymapper-$version-win64"
+        ]
     }
 }
